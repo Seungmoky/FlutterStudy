@@ -120,7 +120,7 @@ class _RecipePageState extends State<RecipePage> {
           _buildIngredientList(recipe.ingredients),
           SizedBox(height: 16.0),
           Text('Instructions:'),
-          SizedBox(height: 8.0),
+          SizedBox(height: 9.0),
           Text(recipe.url),
         ],
       ),
